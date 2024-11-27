@@ -1,0 +1,82 @@
+@font-face {
+    font-family: basketballFont;
+    src: url(./Font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#titulo {
+    width: 515px;
+    height: 35px;
+    border: 5px solid black;
+    margin: 40px 0 -45px 40px;
+    background-color: #0369A1;
+    color: #EEEEEE;
+    text-align: center;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+
+
+}
+
+#mainDiv {
+    width: 525px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 0 120px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background-image: url(./fondo1.webp);
+    background-size: cover;
+    margin: 40px 0 0 40px;
+    box-shadow: 0px 0px 10px blue;
+
+}
+
+
+.equipos {
+    font-size: 20pt;
+    margin: 12px;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid white;
+}
+
+.marcador {
+    width: 150px;
+    height: 100px;
+    background-color: #080001;
+    border: 2px solid white;
+    color: #F94F6D;
+    font-family: 'basketballFont', 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    padding-top: 10px;
+
+}
+
+#marcador1, #marcador2 {
+    height: 215px;
+    background-color: #0369A1;
+    text-align: center;
+    margin: 0 0 0 -65px;
+    border: 5px solid black;
+}
+
+#marcador2 {
+    margin: 0 0 0 50px;
+ }
+
+button {
+    width:  40px;
+    height: 20px;
+    margin-top: 12px;
+    border: 1px solid white;
+    color: white;
+    background-color: #0369A1;
+}
+
